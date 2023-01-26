@@ -1,0 +1,24 @@
+import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
+
+class AppWidgets {
+  String pinto = "pinto";
+  static Color corprincipal = Colors.white;
+
+  static Widget metodoBunda() {
+    return Text("data");
+  }
+
+  static Widget heightSpacer({double? height}) {
+    return Container(height: height);
+  }
+}
+
+void main() {
+  Teste bundateste = Teste();
+  bundateste.pinto;
+
+  Teste.metodoBunda();
+  Teste.corprincipal;
+  AppWidgets.heightSpacer(height: 30);
+}
